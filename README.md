@@ -5,7 +5,7 @@
 
 Link do projeto no ar:
 
-- [link do projeto final no netlify](https://www.figma.com/file/dykEV9jRKyK7K83CQ74zfP/Portfolio-Ciclo-Formativo-II---M%C3%B3dulo-I?node-id=0%3A1)
+- [link do projeto final no netlify](https://portifolio-dayanisilva-modulofinal.netlify.app)
 
 O projeto final é um portfólio feito em HTML, CSS e hospedado no netlify.
 
@@ -28,9 +28,8 @@ _Foi incrível caminharmos juntas!_
 
 ### Vamos nos conectar!
 
-- [instagram](https://www.instagram.com/TROCAR)
-- [linkedin](https://www.linkedin.com/in/TROCAR)
-- [github](https://github.com/TROCAR)
+- [linkedin](https://www.linkedin.com/in/dayani-ferreira)
+- [github](https://github.com/ferreiradaya)
 
 
 <br>
