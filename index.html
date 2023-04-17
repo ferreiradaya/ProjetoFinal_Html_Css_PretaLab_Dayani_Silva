@@ -1,34 +1,118 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap"
+    rel="stylesheet">
   <link rel="stylesheet" href="./style.css">
-  <title>Projeto Final</title>
+  <title>Portifólio Dayani Silva</title>
 </head>
+
 <body>
-  <div id="menu">
-    <ul>
-      <li><a href="#formacao">Formação</a></li>
-      <li><a href="#portfolio">Portfólio</a></li>
-      <li><a href="#contato">Contato</a></li>
-    </ul>      
-  </div>
-  <div id="perfil">
 
-  </div>
-  <div id="formacao">
+  <header class="header-menu">
+    <Nav id="menu">
+      <ul class="topicos-menu">
+        <li><a href="#formacao">Formação</a></li>
+        <li><a href="#portfolio">Portfólio</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </Nav>
+  </header>
 
-  </div>
-  <div id="portfolio">
+  <main>
+    <selection class="perfil">
+      <div class="container-principal">
+        <div>
+          <img src="./img/foto_perfil_Dayani_Silva1.jpg"></img>
+        </div>
+        <div>
+          <h1>Dayani Pinto Ferreira da Silva</h1>
+          <h2>Estudante de Tecnologia</h2>
+        </div>
+        <div class="resumo">
+          <p>Estudante de engenharia civil e curiosa sobre tecnologia. hdjhsdhfuhdohno bsdhjhsagdi
+            jhjdhkadshfhoahfoohefehjdshcvhsdduihjhvn.</p>
+        </div>
+      </div>
+    </selection>
 
-  </div>
-  <div id="contato">
+    <selection id="formacao" class="formacao">
+      <div class="container-topicos">
+        <div>
+          <h3 class="topico-principal">Formação</h3>
+        </div>
+        <div class="subtopicos">
+          <ul>
+            <li>
+              <p class="titulo-subtopico">Ciclo Formativo Básico</p>
+              <a href="https://www.pretalab.com/formacao" target="_blank" class="link-subtopico">Pretalab</a>
+              <p class="descricao-titulo-subtopico">Formação básica em HTML, CSS e JavaScript.</p>
 
-  </div>
+            </li>
+            <li>
+              <p class="titulo-subtopico">Ensino Superior</p>
+              <a href="https://www.ifsc.edu.br/curso-aberto/-/asset_publisher/nvqSsFwoxoh1/content/id/1035365?p_r_p_categoryId=656667"
+                target="_blank" class="link-subtopico">Instituto Federal de Santa Catarina</a>
+              <p class="descricao-titulo-subtopico">Graduação em Engenharia Civil</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </selection>
+
+    <selection id="portfolio" class="portfolio">
+      <div class="container-topicos">
+        <div>
+          <h3 class="topico-principal">Meus Projetos</h3>
+        </div>
+        <div class="subtopicos">
+          <ul>
+            <li>
+              <p class="titulo-subtopico">Calculadora</p>
+              <a href="https://dayanisilva-finalmodulo1-pretalab.netlify.app" target="_blank" class="link-subtopico">Acessar</a>
+              <p class="descricao-titulo-subtopico">Projeto desenvolvido durante no Módulo I do Ciclo Formativo Básico 
+                do projeto "O Poder do Futuro", da PretaLab em Parceria com a Disney, visando aplicar e desenvolver os conhecimentos em JavaScript.</p>
+            </li>
+
+            <li>
+              <p class="titulo-subtopico">Currículo</p>
+              <a href="https://dayanisilva-finalmodulo1-pretalab.netlify.app"
+                target="_blank" class="link-subtopico">Acessar</a>
+              <p class="descricao-titulo-subtopico">Projeto desenvolvido durante no Módulo II do Ciclo Formativo Básico 
+                do projeto "O Poder do Futuro", da PretaLab em Parceria com a Disney, visando aplicar e desenvolver os conhecimentos em HTML e CSS.</p>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </selection>
+  </main>
+
+  <footer id="contato" class="rodape">
+    <div class="container-rodape">
+      <ul class="titulos-rodape">
+        <li>
+          <a href="https://github.com/ferreiradaya" target="_blank" class="link-rodape">
+            <img src="./img/github.svg"></img>
+            <p>ferreiradaya</p>
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/dayani-ferreira" target="_blank" class="link-rodape">
+            <img src="./img/linkedin.svg"></img>
+            <p>dayani-ferreira</p>
+          </a>
+        </li>
+      </ul>
+    </div>
+
+  </footer>
+
 </body>
+
 </html>
